@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+
 	"math/rand"
 	"net/http"
 	"net/url"
@@ -34,7 +35,7 @@ func getDepartement() string {
 func getPhone() string {
 	return fmt.Sprintf("%.2d %d %d %d %d",
 		rand.Intn(6)+1,
-		rand.Intn(99),
+		rand.Intn(98),
 		rand.Intn(99),
 		rand.Intn(99),
 		rand.Intn(99),
