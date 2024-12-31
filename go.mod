@@ -1,5 +1,7 @@
 module github.com/fabriceT/lepourriteur
 
-go 1.15
+go 1.23
 
-require github.com/brianvoe/gofakeit/v6 v6.0.4
+toolchain go1.23.4
+
+require github.com/brianvoe/gofakeit/v6 v6.28.0
